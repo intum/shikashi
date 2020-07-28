@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.summary       = "A flexible sandbox for ruby"
 
   gem.add_dependency 'getsource', '~> 0.2.2'
 end
